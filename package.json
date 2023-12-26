@@ -1,0 +1,18 @@
+{
+  "name": "fem-ai-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "chat": "node --env-file=.env chat.js",
+    "vision": "node --env-file=.env vision.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "langchain": "^0.0.211",
+    "openai": "^4.23.0"
+  }
+}
